@@ -13,7 +13,7 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <jakartaee>9.1.0</jakartaee>
+        <jakartaee>9.0.0</jakartaee>
         <!--<version.payara>5.2022.2</version.payara>-->
         <version.payara>6.2021.1.Alpha1</version.payara>
         <final.name>microjakartanosql</final.name>
@@ -32,6 +32,12 @@
             <artifactId>microprofile</artifactId>
             <version>5.0</version>
             <type>pom</type>
+            <scope>provided</scope>
+        </dependency>
+         <dependency>
+            <groupId>org.eclipse.microprofile.config</groupId>
+            <artifactId>microprofile-config-api</artifactId>
+            <version>3.0.1</version>
             <scope>provided</scope>
         </dependency>
         
