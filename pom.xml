@@ -73,6 +73,48 @@
             <artifactId>mongodb-driver</artifactId>
             <version>${jakarta.nosql.version}</version>
         </dependency>
+        
+        <!--
+Microprofile
+-->
+<dependency>
+  <groupId>org.eclipse.microprofile.health</groupId>
+  <artifactId>microprofile-health-api</artifactId>
+  <version>2.2</version>
+    <type>jar</type>
+</dependency>
+
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+<!--        <dependency>
+            <groupId>org.microshed</groupId>
+            <artifactId>microshed-testing-payara-micro</artifactId>
+            <version>0.9.1</version>
+            <type>module</type>
+        </dependency>-->
+        <dependency>
+            <groupId>org.eclipse.microprofile.metrics</groupId>
+            <artifactId>microprofile-metrics-api</artifactId>
+            <version>3.0</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
     
     <build>

@@ -1,4 +1,4 @@
-package com.avbravo.microjavaxnosql.controller;
+package com.avbravo.microjakartanosql.controller;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
