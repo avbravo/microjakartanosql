@@ -1,4 +1,4 @@
-package com.avbravo.microjakartanosql.field;
+package com.avbravo.microjavaxnosql.field;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

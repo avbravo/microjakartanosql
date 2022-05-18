@@ -1,8 +1,8 @@
 package com.avbravo.microjakartanosql.controller;
 
 
-import com.avbravo.microjakartanosql.model.Hero;
 import com.avbravo.microjakartanosql.repository.HeroRepository;
+import com.avbravo.microjavaxnosql.model.Hero;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;

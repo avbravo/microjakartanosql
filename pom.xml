@@ -24,7 +24,7 @@
         <!-- 
         Jakarta EE 9.1.0+
         -->
-<!--        <dependency>
+<!--      <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
             <version>${jakartaee}</version>
@@ -48,7 +48,7 @@
                Jakarta EE 8
 
         -->
-         <dependency>
+       <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-web-api</artifactId>
             <version>8.0.0</version>

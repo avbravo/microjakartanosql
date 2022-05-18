@@ -1,4 +1,4 @@
-package com.avbravo.microjakartanosql;
+package com.avbravo.microjavaxnosql;
 
 
 import javax.ws.rs.ApplicationPath;

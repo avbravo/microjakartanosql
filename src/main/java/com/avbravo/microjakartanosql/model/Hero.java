@@ -1,7 +1,7 @@
-package com.avbravo.microjakartanosql.model;
+package com.avbravo.microjavaxnosql.model;
 
 
-import com.avbravo.microjakartanosql.field.FieldPropertyVisibilityStrategy;
+import com.avbravo.microjavaxnosql.field.FieldPropertyVisibilityStrategy;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;

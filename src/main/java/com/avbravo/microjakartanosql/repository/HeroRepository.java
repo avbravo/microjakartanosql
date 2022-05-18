@@ -1,7 +1,7 @@
 package com.avbravo.microjakartanosql.repository;
 
 
-import com.avbravo.microjakartanosql.model.Hero;
+import com.avbravo.microjavaxnosql.model.Hero;
 import jakarta.nosql.mapping.Page;
 import jakarta.nosql.mapping.Pagination;
 import jakarta.nosql.mapping.Repository;
