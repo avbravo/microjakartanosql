@@ -2,7 +2,6 @@ package com.avbravo.microjakartanosql.model;
 
 
 import com.avbravo.microjakartanosql.field.FieldPropertyVisibilityStrategy;
-import jakarta.json.bind.annotation.JsonbVisibility;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
@@ -10,6 +9,7 @@ import jakarta.nosql.mapping.Id;
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.Set;
+import javax.json.bind.annotation.JsonbVisibility;
 
 @Entity
 @JsonbVisibility(FieldPropertyVisibilityStrategy.class)
